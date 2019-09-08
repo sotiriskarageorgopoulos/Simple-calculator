@@ -1,0 +1,62 @@
+.screen-style{
+    height: 70px;
+    width: 398px;
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    font-size: 40px;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.box {
+    border: 1px solid black;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.box-nums{
+    width: 102px;
+    font-size: 40px;
+    background-color:#d8d9db;
+}
+
+.box-C{
+    width: 204px;
+    font-size: 40px;
+    background-color:#d8d9db;
+}
+
+.box-0{
+    width:306px;
+    font-size: 40px;
+    background-color:#d8d9db;
+}
+
+.box-operators{
+    color:aliceblue;
+    background-color:#df974c;
+    font-size: 50px;
+}
+
+.box-nums:hover{
+    background-color:#968d8c;
+    
+}
+
+.box-0:hover{
+    background-color:#968d8c;
+    
+}
+
+.box-C:hover{
+    background-color:#968d8c;
+    
+}
